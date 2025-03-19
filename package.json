@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "build": "next build && npx @netlify/next",
     "start": "next start",
-    "lint": "next lint",
-    "build": "next build && npx @netlify/next"
+    "lint": "next lint"
   },
   "dependencies": {
     "@netlify/next": "^1.4.9",
